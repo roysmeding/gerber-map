@@ -1,0 +1,20 @@
+{
+	"name": "power_stage_rev1_2015-03-20",
+
+	"layers": [
+		{ "name": "bottom paste",  "svg": "data/power_stage_rev1_2015-03-20.GBP.svg", "color": "#B0B0B0" },
+		{ "name": "bottom mask",   "svg": "data/power_stage_rev1_2015-03-20.GBS.svg", "color": "#999" },
+		{ "name": "bottom silk",   "svg": "data/power_stage_rev1_2015-03-20.GBO.svg", "color": "#E3D7D6" },
+		{ "name": "bottom copper", "svg": "data/power_stage_rev1_2015-03-20.GBL.svg", "color": "#AE2427" },
+		{ "name": "outline",       "svg": "data/power_stage_rev1_2015-03-20.GML.svg", "color": "#852624" },
+		{ "name": "top copper",    "svg": "data/power_stage_rev1_2015-03-20.GTL.svg", "color": "#AE2427" },
+		{ "name": "top silk",      "svg": "data/power_stage_rev1_2015-03-20.GTO.svg", "color": "#E3D7D6" },
+		{ "name": "top mask",      "svg": "data/power_stage_rev1_2015-03-20.GTS.svg", "color": "#999" },
+		{ "name": "top paste",     "svg": "data/power_stage_rev1_2015-03-20.GTP.svg", "color": "#B0B0B0" },
+		{ "name": "drill holes",   "svg": "data/power_stage_rev1_2015-03-20.TXT.svg", "color": "#000" }
+	],
+
+	"notes": [
+		{ "type": "warning", "pos": [10, 10], "message": "sup Mitch?" }
+	]
+}

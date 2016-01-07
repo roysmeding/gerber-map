@@ -1,0 +1,42 @@
+.board-viewer {
+	width: 1280px;
+	height: 720px;
+	margin: 20px auto;
+
+	display: flex;
+	flex-flow: row nowrap;
+}
+
+.board-viewer > .map {
+	width: 1100px;
+	height: 720px;
+	flex: 0 0 1100px;
+}
+
+.board-viewer > .notes {
+	flex: 1 1 180px;
+	height: 720px;
+	padding: 0;
+	margin: 0;
+}
+
+.board-viewer > .notes li {
+	list-style-type: none;
+	display: block;
+	padding: 2px 5px;
+	margin: 5px;
+	border: 1px solid black;
+	cursor: pointer;
+}
+
+.notes li.warning {
+	background: #ff8;
+}
+
+.notes li.error {
+	background: #f88;
+}
+
+svg {
+	transform-origin: 0 0 0;
+}
