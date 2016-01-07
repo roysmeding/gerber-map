@@ -4,6 +4,9 @@
 This project uses [Leaflet](http://leafletjs.com/) to render PCB design files
 turned into SVGs by [gerber-to-svg](https://github.com/mcous/gerber-to-svg).
 
+## Demo
+A demo of the repo contents is available at <http://roysmeding.nl/gerber-map/>.
+
 ## Files
 - `data/power_stage_rev1_2015-03-20.json`
     This is the JSON file linked from index.html. It specifies the SVG filename,
